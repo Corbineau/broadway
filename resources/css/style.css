@@ -7,6 +7,23 @@ h1{
     
 }
 
+h2{
+    
+}
+
+h3{
+    font-size: 23px;
+    font-weight: bold;
+    
+}
+
 nav ul{
     list-style-type: none;
+}
+
+.banner h3{
+    background-image: url(../images/the-flatiron-building.png);
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
 }
