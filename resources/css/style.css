@@ -4,11 +4,13 @@ body {
 }
 
 h1{
-    
+   font-size: 70px;
+    font-weight: bold;
 }
 
 h2{
-    
+    font-size: 32px;
+    font-weight: bold;
 }
 
 h3{
@@ -17,13 +19,37 @@ h3{
     
 }
 
+p, a{
+    font-size: 14px;
+}
+
 nav ul{
     list-style-type: none;
 }
 
-.banner h3{
+.banner {
     background-image: url(../images/the-flatiron-building.png);
+}
+
+.banner h1{
     color: white;
-    font-size: 23px;
-    font-weight: bold;
+}
+
+.banner h3{
+    color: white;
+}
+
+.banner a{
+    color: white;
+    font-size: 18px;
+}
+
+.footer {
+    font-size: 11px;
+    color: white;   
+    background-color: dimgray;
+}
+
+.footer a{
+    color: white;
 }
